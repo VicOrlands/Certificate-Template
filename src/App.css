@@ -110,7 +110,6 @@
 	margin-left: 200px;
 }
 
-@media screen and (max-width: 600px) {
 	.certificate {
 		width: 100%;
 		border-right: 13px solid #175adc;
@@ -165,4 +164,3 @@
 	.signatories div:nth-child(2) {
 		margin-left: 40px;
 	}
-}
