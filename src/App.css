@@ -2,13 +2,14 @@
 
 :root {
 	--blue: #516beb;
-	--darkGrey: #121212;
+	--darkGrey: #272727;
 	--border: 3px solid rgba(81, 107, 235, 0.5);
 }
 
 .certificate-home {
-  padding: 0 30px 40px 30px;
-  margin: 90px 70px 70px;
+	padding: 0 30px 40px 30px;
+	margin: 90px 70px 70px;
+	color: var(--darkGrey);
 }
 
 .certificate-header {
@@ -113,45 +114,48 @@
 	.certificate {
 		width: 100%;
 		border-right: 13px solid #175adc;
-		padding: 20px 30px 10px 20px;
+		padding: 10px;
 	}
 
 	.gold-plate {
 		align-items: center;
-		height: 20vh;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 
 	.gold-plate img {
 		margin-left: 40px;
-		height: 13vh;
+		height: 10vh;
 	}
 
 	.gold-plate h2 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.name-and-course h5,
 	.name-and-course p {
-		font-size: .9rem;
+		font-size: .7rem;
 	}
 
 	.name-and-course h1 {
-		font-size: 4rem;
-		line-height: 70px;
+		font-size: 3rem;
+		line-height: 24px;
+	}
+
+	.name-and-course p {
+		width: 80%;
 	}
 
 	.certificate footer {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 
 	.certificate footer h6 {
-		font-size: 1.2rem;
+		font-size: .9rem;
 		color: #f9b326;
 	}
 
 	.signatories div p {
-		font-size: .9rem;
+		font-size: .7rem;
 	}
 
 	.signatories div hr {
@@ -159,6 +163,6 @@
 	}
 
 	.signatories div:nth-child(2) {
-		margin-left: 70px;
+		margin-left: 40px;
 	}
 }
